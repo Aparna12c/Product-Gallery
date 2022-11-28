@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navigation-bar {
+            background-color: brown;
+            padding: 1rem;
+        }
+
+        .navigation-bar ul li {
+            display: inline-block;
+        }
+
+        .navigation-bar ul li a {
+            list-style-type: none;
+            text-decoration: none;
+            color: white;
+            text-transform: capitalize;
+            margin-right: 2rem;
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background-color: #f2f2f2;
+            overflow: auto;
+        }
+
+        .gallery {
+            border: 1px solid #ccc;
+            margin: 5px;
+            width: 390px;
+            float: left;
+
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .desc {
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <header class="header-section"> -->
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">download</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="gallery">
+            <img src="Images/food1.jpg" alt="">
+            <div class="desc">
+                add a description here </div>
+        </div>
+
+        <div class="gallery">
+            <img src="Images/food2.jpg" alt="">
+            <div class="desc"> add a description here </div>
+        </div>
+
+
+        <div class="gallery">
+            <img src="Images/food3.jpg" alt="">
+            <div class="desc"> add a description here </div>
+        </div>
+
+
+        <div class="gallery">
+            <img src="Images/food-menu6.jpg" alt="">
+            <div class="desc"> add a description here </div>
+        </div>
+
+
+        <div class="gallery">
+            <img src="Images/food3.jpg" alt="">
+            <div class="desc"> add a description here </div>
+        </div>
+
+        <div class="gallery">
+            <img src="Images/food1.jpg" alt="">
+            <div class="desc"> add a description here </div>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
